@@ -1,0 +1,19 @@
+.idea/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local datasets and generated artifacts
+DVCAlign/Data/
+
+# Notebook and Python tooling caches
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# OS noise
+.DS_Store
