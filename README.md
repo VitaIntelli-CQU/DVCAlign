@@ -1,10 +1,8 @@
+![DVCAlign model overview](assets/model-figure.svg)
+
 # DVCAlign
 
 DVCAlign is a Python package for alignment and integration of spatial transcriptomics data across slices, conditions, platforms, and developmental stages.
-
-## Model Overview
-
-![DVCAlign model overview](assets/model-figure.svg)
 
 ## Repository
 
