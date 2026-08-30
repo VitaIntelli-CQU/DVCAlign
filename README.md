@@ -49,6 +49,19 @@ A runnable DLPFC example notebook is included in this repository:
 
 - [DLPFC demo notebook](examples/DLPFC.ipynb)
 
+A runnable mouse-brain partial-overlap example is also included:
+
+- [MB2SAP demo notebook](examples/MB2SAP.ipynb)
+
+The MB2SAP notebook uses the `mMAMP` data layout, with two Visium sections:
+`MA` (10x Genomics Mouse Brain Serial Section 2, Sagittal Anterior) and `MP`
+(10x Genomics Mouse Brain Serial Section 2, Sagittal Posterior). The official
+source pages are the [Sagittal Anterior dataset](https://www.10xgenomics.com/datasets/mouse-brain-serial-section-2-sagittal-anterior-1-standard)
+and the [Sagittal Posterior dataset](https://www.10xgenomics.com/datasets/mouse-brain-serial-section-2-sagittal-posterior-1-standard).
+The expression and ground-truth files are not bundled; place them under
+`DVCAlign/Data/mMAMP/MA` and `DVCAlign/Data/mMAMP/MP` using the layout expected
+by the notebook.
+
 This notebook demonstrates a typical DVCAlign workflow for adjacent DLPFC sections, including:
 
 1. environment setup
