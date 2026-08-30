@@ -114,6 +114,6 @@ adata = DVCAlign.mclust_R(adata, num_cluster=7, used_obsm="DVCAlign")
 
 ## Citation
 
-If this code supports your research, please cite the DVCAlign method paper:
+If this repository supports your research, please cite:
 
-Zhou, X., Dong, K. and Zhang, S. Integrating spatial transcriptomics data across different conditions, technologies and developmental stages. Nat Comput Sci 3, 894-906 (2023). https://doi.org/10.1038/s43588-023-00528-w
+Cheng Wei. DVCAlign. GitHub repository. https://github.com/VitaIntelli-CQU/DVCAlign
