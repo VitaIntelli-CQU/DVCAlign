@@ -1,3 +1,5 @@
+# Some utility functions in this module are adapted from STAligner:
+# https://github.com/zhoux85/STAligner (MIT License; Copyright (c) 2022 Xiang Zhou).
 
 import pandas as pd
 import numpy as np
